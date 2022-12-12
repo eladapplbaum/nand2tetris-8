@@ -28,7 +28,6 @@ class CodeWriter:
         self._vm_file_name = ''
         self.comp_i = 0
         self.call_i = 0
-
         self.function_counter = 0
     def set_file_name(self, filename: str) -> None:
         """Informs the code writer that the translation of a new VM file is
